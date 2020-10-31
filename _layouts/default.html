@@ -28,7 +28,8 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <!--Start comment
+        
+        <!--Start comment: este é um botão para ver o projeto do site, mas acho que pode ser direcionado para outra página também
 
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
@@ -50,16 +51,24 @@
 
         <aside id="sidebar">
           {% if site.show_downloads %}
+          <!-- Start comment: este é um botão para fazer o download do site, mas acho que pode ser direcionado para outra coisa também
+
             <a href="{{ site.github.zip_url }}" class="button">
               <small>Download</small>
               .zip file
             </a>
-          <!-- Start comment
+
+                end comment  -->
+
+ 
+            <!-- Start comment: este é um botão para fazer o download do site, mas acho que pode ser direcionado para outra coisa também
+
             <a href="{{ site.github.tar_url }}" class="button">
               <small>Download</small>
               .tar.gz file
             </a>
                 end comment  -->
+          
           {% endif %}
 
           {% if site.github.is_project_page %}
