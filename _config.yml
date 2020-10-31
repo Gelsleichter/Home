@@ -1,8 +1,7 @@
 theme: jekyll-theme-architect
 
-title: The title
-description: A description of your site's purpose
+title: Yuri Andrei Gelsleichter
+description: Personal page
 
-show_downloads: "false"
 #show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: Your Google Analytics tracking ID
+#google_analytics: Your Google Analytics tracking ID
